@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+mycalculatordapp = "9ggEpdVpSf7Lr95WW4FVeVB9c9sHqhrZANepHd7ZakaS"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/vimalkuriensam/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
